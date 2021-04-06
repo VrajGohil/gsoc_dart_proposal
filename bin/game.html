@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" type="image/png"
+        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type=""
+        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+        color="#111" />
+
+
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>HIT!</title>
+
+    <link rel="stylesheet" media="screen"
+        href="https://cpwebassets.codepen.io/assets/fullpage/fullpage-4de243a40619a967c0bf13b95e1ac6f8de89d943b7fc8710de33f681fe287604.css" />
+
+
+    <link rel="apple-touch-icon" type="image/png"
+        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type=""
+        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+        color="#111" />
+
+
+
+
+    <title>HIT!</title>
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+
+
+    <style>
+        html {
+            font-size: 15px;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+        }
+
+        body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .referer-warning {
+            background: black;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            padding: 0.75em;
+            color: white;
+            text-align: center;
+            font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+            line-height: 1.2;
+            font-size: 1rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .referer-warning h1 {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .referer-warning a {
+            color: #56bcf9;
+        }
+
+        /* $linkColorOnBlack */
+    </style>
+</head>
+
+<body class="">
+
+    <div id="result-iframe-wrap" role="main">
+
+        <iframe id="result" srcdoc="
+<!DOCTYPE html>
+<html lang=&quot;en&quot; >
+
+<head>
+
+  <meta charset=&quot;UTF-8&quot;>
+  
+<link rel=&quot;apple-touch-icon&quot; type=&quot;image/png&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png&quot; />
+<meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;CodePen&quot;>
+
+<link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico&quot; />
+
+<link rel=&quot;mask-icon&quot; type=&quot;&quot; href=&quot;https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg&quot; color=&quot;#111&quot; />
+
+
+  <title>HIT!</title>
+  
+  
+  
+  
+<style>
+html, body {
+  background:#111;
+  width:100%;
+  height:100%;
+  padding:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+} 
+H1 {
+  color:#fff;
+  text-shadow:0 0 10px rgba(255,255,255,0.5);
+  font-family:Helvetica, sans-serif;
+  font-size:50px;
+  display:block;
+  padding:20px;
+  pointer-events:none;
+  text-align:center;
+}
+h1::selection {
+  background:none;
+}
+div {
+  position:absolute;
+  transform:translate(-50%, -50%);
+  width:50px;
+  height:50px;
+}
+span {
+  display:block;
+  width:4px;
+  height:50px;
+  border-radius:4px;
+  background:#fff;
+  box-shadow:0 0 4px rgba(255,255,255,0.5);
+  position:absolute;
+  left:50%;
+  bottom:50%;
+  transform-origin:center bottom;
+  transition:transform 0.2s, opacity 0.45s;
+  transition-timing-function:ease-out;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage(&quot;resize&quot;, &quot;*&quot;);
+  }
+</script>
+
+
+</head>
+
+<body translate=&quot;no&quot; >
+  <h1>Click anywhere to HIT!</h1>
+  <h1>{{ text }}</h1>
+    <script src=&quot;https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js&quot;></script>
+
+  
+      <script id=&quot;rendered-js&quot; >
+var winPos;
+window.scrollTo(15, 15);
+var flag = false;
+document.querySelector(&quot;body&quot;).addEventListener(&quot;click&quot;, function (e) {
+
+  var div = document.createElement(&quot;div&quot;);
+
+  document.querySelector(&quot;body&quot;).appendChild(div);
+  div.style.left = e.pageX + &quot;px&quot;;
+  div.style.top = e.pageY + &quot;px&quot;;
+  var maxElems = 16;
+  for (i = 0; i < maxElems; i++) {
+    var span = document.createElement(&quot;span&quot;);
+    var newSpan = div.appendChild(span);
+    var deg = i * (360 / maxElems) + Math.floor(Math.random() * 15);
+    var height = 20 + Math.floor(Math.random() * 30);
+    var width = 4 + Math.floor(Math.random() * 10);
+    newSpan.style.height = height + &quot;px&quot;;
+    newSpan.style.width = width + &quot;px&quot;;
+    newSpan.style.transform = &quot;rotate(&quot; + deg + &quot;deg)&quot;;
+  }
+  window.requestAnimationFrame(
+  function () {
+    Array.from(div.querySelectorAll(&quot;span&quot;)).forEach(el => {
+      var trasY = -50 - Math.floor(Math.random() * 100);
+      el.style.transform += &quot;scaleY(0.5) translateY(&quot; + trasY + &quot;px)&quot;;
+      el.style.opacity = &quot;0&quot;;
+    });
+    window.setTimeout(function () {
+      document.body.removeChild(div);
+    }, 400);
+  });
+
+
+  if (!flag) {
+    flag = true;
+    winPos = [document.body.scrollLeft, document.body.scrollTop];
+    var maxShakeOffset = 1;
+    var shake = window.setInterval(function () {
+      var shakeOffset = Math.floor(Math.random() * 10 * maxShakeOffset);
+      window.scrollTo(winPos[0] - maxShakeOffset / 2 + shakeOffset, winPos[1] - maxShakeOffset / 2 + shakeOffset);
+    }, 10);
+    window.setTimeout(function () {
+      window.clearInterval(shake);
+      window.scrollTo(winPos[0], winPos[1]);
+      flag = false;
+    }, 200);
+  }
+
+
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
+ 
+" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation  allow-scripts allow-top-navigation-by-user-activation"
+            allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; microphone; midi"
+            allowTransparency="true" allowpaymentrequest="true" allowfullscreen="true" class="result-iframe">
+        </iframe>
+
+    </div>
+</body>
+
+</html>
